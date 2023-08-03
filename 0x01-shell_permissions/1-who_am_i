@@ -1,2 +1,2 @@
 #!/biin/bash
-whoami
+id -un
