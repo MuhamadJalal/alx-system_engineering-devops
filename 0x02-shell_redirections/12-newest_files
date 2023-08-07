@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Art | tail -n 10
+find -type f -printf '%T+ %p\n' | sort -r | head -n 10
